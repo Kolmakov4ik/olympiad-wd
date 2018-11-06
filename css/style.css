@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 .wrapper {
     float: center;
     width: 1140px;
@@ -20,6 +19,43 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.bg-1 {
+    background: url("../img/1280px-Andorra_Gorge.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.bg-2 {
+    background: url("../img/52546ad8595ed.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.bg-3 {
+    background: url("../img/40471.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.bg-4{
+    background: url("../img/Cabrerets.JPG");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 .bg_menu {
     height: 100px;
@@ -74,7 +110,7 @@
 
 .bg_h1 {
     font-size: 40px;
-    margin: 5vh 0 10vh 0;
+    margin-top: 15vh;
 }
 
 
