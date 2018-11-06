@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    float: center;
+    width: 1140px;
+    margin: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg {
+    background: url("../img/Parque_nacional_de_Ordesa_y_Monte_Perdido_-_Castillo_mayor.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg_menu {
+    height: 100px;
+    width: 100%;
+
+
+}
+
+.bg_menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.bg_menu ul li {
+    list-style: none;
+    padding: 35px 15px;
+    background: transparent;
+}
+
+.bg_menu ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    
+    border-bottom: 2px solid #fff;
+    transition: 0.4s;
+
+}
+
+.bg_menu ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px black;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+
+.bg_h1 {
+    font-size: 40px;
+    margin: 5vh 0 10vh 0;
+}
+
+
+.sl_ctr{
+    position:relative;
+    width:1140px;
+    height:600px;
+    overflow:hidden;
+
+    margin: 100px 0;
+}
+
+.sldr{
+    position:relative;
+    width: 10000000px;
+    height:360px;
+}
+
+.sldr img{
+    float:left;
+}
+
+.prv_b, .nxt_b{
+    position:absolute;
+    top:300px;
+    display:block;
+    width:35px;
+    height:35px;
+    cursor:pointer;
+}
+
+.prv_b:hover, .nxt_b:hover{
+    opacity:.6;
+}
+
+.prv_b{
+    left:10px;
+    background:url('../img/prv.png') no-repeat;
+}
+
+.nxt_b{
+right:10px;
+background:url('../img/nxt.png') no-repeat;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+}
